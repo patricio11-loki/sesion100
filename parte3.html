@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 3</title>
+</head>
+<body>
+    <script>
+        let esMayorDeEdad=false;
+        let tieneLicencia=true;
+        let puedeconducir=esMayorDeEdad && tieneLicencia;
+        console.log("Si Puede conducir ", puedeconducir);
+        document.write("¿Puede conducir? ", puedeconducir);
+        let sipuedeconducir=esMayorDeEdad || tieneLicencia;
+        console.log("¿Puede conducir con errores? ", sipuedeconducir);
+        document.write("¿Puede conducir? ", sipuedeconducir);
+    </script>
+</body>
+</html>
