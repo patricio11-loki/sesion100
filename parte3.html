@@ -11,10 +11,20 @@
         let tieneLicencia=true;
         let puedeconducir=esMayorDeEdad && tieneLicencia;
         console.log("Si Puede conducir ", puedeconducir);
-        document.write("¿Puede conducir? ", puedeconducir);
+        document.write("¿Puede conducir? ", puedeconducir,"<br>");
         let sipuedeconducir=esMayorDeEdad || tieneLicencia;
         console.log("¿Puede conducir con errores? ", sipuedeconducir);
-        document.write("¿Puede conducir? ", sipuedeconducir);
+        document.write("¿Puede conducir con errores? ", sipuedeconducir, "<br>");
+
+    let nombre = "María";
+    let apellido = "López";
+    let saludo = "Hola, " + nombre + " " + apellido + "!";
+    let saludoConTemplate = `Hola, ${nombre} ${apellido}!`;
+ 
+    document.write(saludo,"<br>");
+    document.write(saludoConTemplate);
+
+        
     </script>
 </body>
 </html>
